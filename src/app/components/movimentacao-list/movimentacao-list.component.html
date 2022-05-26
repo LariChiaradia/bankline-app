@@ -9,8 +9,8 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let item of movimentacoes; index as i"> <!-- variavel temporária -->
-            <th scope="row">{{ i + 1}}</th> <!-- Elemento da posição ou número da linha-->
+        <tr *ngFor="let item of movimentacoes; index as i">
+            <th scope="row">{{ i + 1}}</th>
             <td>{{ item.dataHora }}</td>
             <td>{{ item.descricao }}</td>
             <td>{{ item.valor }}</td>
