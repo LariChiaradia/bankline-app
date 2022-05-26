@@ -7,6 +7,10 @@ import { MovimentacaoListComponent } from './components/movimentacao-list/movime
 import { MovimentacaoNewComponent } from './components/movimentacao-new/movimentacao-new.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
