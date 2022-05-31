@@ -7,7 +7,7 @@ import { MovimentacaoService } from 'src/app/services/movimentacao.service';
   styleUrls: ['./movimentacao-list.component.css']
 })
 export class MovimentacaoListComponent implements OnInit {
-  movimentacoes: any;
+  movimentacoes:any;
 
   constructor(private movimentacaoService: MovimentacaoService) { }
 
